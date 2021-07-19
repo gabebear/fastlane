@@ -65,6 +65,7 @@ module Spaceship
       VPNConfiguration = AppService.new_service("V66P55NK2I")
       Wallet = AppService.new_service("passbook")
       WirelessAccessory = AppService.new_service("WC421J6T7P")
+      TimeSensitiveNotifications = AppService.new_service("timesensitive-notification")
 
       constants.each do |c|
         name = c.to_s
